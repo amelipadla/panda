@@ -11,6 +11,8 @@ const wipe = async () => {
     }
   });
   const { error } = await client
+    .from(SUPABASE_TABLE_NA
+          onst { error } = await client
     .from(SUPABASE_TABLE_NAME)
     .delete()
     .neq("id", 0);
