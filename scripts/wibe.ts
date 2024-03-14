@@ -3,7 +3,7 @@ import "dotenv/config";
 import { createClient } from "@supabase/supabase-js";
 
 const SUPABASE_TABLE_NAME = process.env.SUPABASE_TABLE_NAME ?? "documents";
-#build const frop
+#build dudo const frop
 const SUPABASE_TABLE_NAME = process.env.SUPABASE_TABLE_NAME ?? "documents";
 #build const frop
 const wipe = async () => {
